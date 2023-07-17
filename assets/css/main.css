@@ -6,9 +6,9 @@
 }
 body{
     text-align: center;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     height: 100vh;
 }
 body::after{
@@ -25,10 +25,18 @@ body::after{
     position: absolute;
     z-index: -1;
 }
+.wrapper{
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
 .glass{
     background-color:#5974aed8 ;
-    width: 850px;
-    height: 650px;
+    width: 700px;
+    height: 600px;
     border-radius: 25px;
     padding-top: 30px;
     color: rgb(232, 232, 232);
@@ -54,7 +62,7 @@ body::after{
 }
 
 .glass .main .content .quote-area .quote{
-    font-size: 35px;
+    font-size: 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
