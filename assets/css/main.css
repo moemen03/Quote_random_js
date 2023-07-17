@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+}
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body::after{
+    content: '';
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-image: url('../images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(5px);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+.glass{
+    background-color:#5974aed8 ;
+    width: 850px;
+    height: 650px;
+    border-radius: 25px;
+    padding-top: 30px;
+    color: rgb(232, 232, 232);
+    position: relative;
+}
+
+.glass .main .title{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.58);
+    display: inline-block;
+}
+
+.glass .main .content .quote-area{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.glass .main .content .quote-area .quote{
+    font-size: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.glass .main .content .autor{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 70px; 
+}
+.glass .main .content .autor .autorname{
+    font-size: 25px;
+}
+.glass .main .content .autor span{
+    padding-right: 10px;
+    margin-top: -5px;
+    font-size: 25px;
+}
+
+
+.glass .main .button{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 50%;
+}
+
+
+button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border-radius: 10px;
+    border: 0px;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: rgba(75, 138, 186, 0.872);
+  }
